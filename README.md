@@ -11,13 +11,13 @@ this project contains: <br/>
 
 
 ## quick start
-open the web <br/>
-  - cd myfirstreactapp <br/>
-  - run yarn start <br/>
 
 set redis with update job <br/>
 - run node worker/tesks/fetch-github.js <br/>
 
 get the job from redis <br/>
-- run node api/index.js
+- run node api/index.js <br/>
 
+open the web <br/>
+  - cd myfirstreactapp <br/>
+  - run yarn start <br/>
