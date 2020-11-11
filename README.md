@@ -13,7 +13,7 @@ this project contains: <br/>
 ## quick start
 
 set redis with update job <br/>
-- run node worker/tesks/fetch-github.js <br/>
+- run node worker/index.js <br/>
 
 get the job from redis <br/>
 - run node api/index.js <br/>
