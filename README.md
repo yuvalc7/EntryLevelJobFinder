@@ -9,3 +9,15 @@ this project contains: <br/>
 * Redis <br/>
 * Github Jobs API
 
+
+## quick start
+open the web <br/>
+- cd myfirstreactapp <br/>
+- run yarn start <br/>
+
+set redis with update job <br/>
+- run node worker/tesks/fetch-github.js <br/>
+
+get the job from redis <br/>
+- run node api/index.js
+
