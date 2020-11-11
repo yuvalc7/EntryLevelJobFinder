@@ -1,10 +1,11 @@
 # EntryLevelJobFinder
-My First Full Stack App that display a bourd of junior/Entry Level Jobs 
-this project contain: 
-React front end w/ Hooks 
-Simple Node-Express API
-Cron worker to fetch data
-Simple filtering algorithm
-Redis
+My First Full Stack App that display a board of junior/Entry Level Jobs <br/>
+
+this project contain: <br/>
+React front end w/ Hooks <br/>
+Simple Node-Express API  <br/>
+Cron worker to fetch data <br/>
+Simple filtering algorithm <br/>
+Redis <br/>
 Github Jobs API
 
