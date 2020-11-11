@@ -12,8 +12,8 @@ this project contains: <br/>
 
 ## quick start
 open the web <br/>
-- cd myfirstreactapp <br/>
-- run yarn start <br/>
+-   cd myfirstreactapp <br/>
+-   run yarn start <br/>
 
 set redis with update job <br/>
 - run node worker/tesks/fetch-github.js <br/>
