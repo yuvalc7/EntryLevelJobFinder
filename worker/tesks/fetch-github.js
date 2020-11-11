@@ -34,14 +34,11 @@ async function fetchgithub(){
     const Jobs = allJobs.filter(job => {
         const JobTitle = job.title.toLowerCase();
         var isJrJob = false;
-        //JobTitle == (!(JobTitle.includes("senior") || JobTitle.includes("manager") || JobTitle.includes("lead") || JobTitle.includes("sr")));
         if (!(JobTitle.includes("senior") || JobTitle.includes("manager") || JobTitle.includes("lead") || JobTitle.includes("sr"))){
             isJrJob = true;
         }
         return isJrJob ;
     })
-    //console.log(...Jobs);
-    //console.log(allJobs.length - count_JrJob);
     await setAsync('github' , JSON.stringify(Jobs));
 }
 
