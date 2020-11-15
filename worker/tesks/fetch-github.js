@@ -5,9 +5,10 @@ const baseURL = 'https://jobs.github.com/positions.json';
 
 const redis = require("redis");
 const client = redis.createClient({
-     port:  14108,
-     host:  'redis-14108.c243.eu-west-1-3.ec2.cloud.redislabs.com',
-     password : 'LhxH0myArKPlBBvpAAxjnSftbWHIJGzc'
+     //client info 
+     port:  ,
+     host:  ,
+     password : 
 });
 
 //SET JOB ASYNC IN REDIS 
